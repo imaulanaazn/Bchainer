@@ -61,6 +61,18 @@ const Footer = () => (
         ))}
       </div>
     </div>
+    <div
+        className="credits"
+        style={{
+          width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center',
+        }}
+      >
+        <p style={{ borderBottom: '1px dashed black',backgroundColor: 'white' }}>
+          Built by
+          {' '}
+          <a target="_blank" href="https://irham-maulana.netlify.app" style={{ color: 'blue' }} rel="noreferrer">Irham Maulana </a>
+        </p>
+      </div>
   </section>
 );
 
